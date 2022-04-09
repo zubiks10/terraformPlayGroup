@@ -24,6 +24,7 @@ resource "aws_instance" "app_server" {
     Cost        = "Datablock group"
     GitRepo     = "https://github.com/zubiks10/terraformPlayGroup.git"
     DataCenter  = "lifeCamp crew"
+    Dept	= "DataTeam"
   }
 }
 
